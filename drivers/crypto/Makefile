@@ -6,5 +6,6 @@
 #
 
 obj-$(CONFIG_EXYNOS_ACE_SHA)	+= ace_sha.o
+obj-$(CONFIG_AST_HACE)		+= ast_hace.o
 obj-y += rsa_mod_exp/
 obj-y += fsl/

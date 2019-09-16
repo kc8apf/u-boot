@@ -116,4 +116,7 @@
 	"spi_dma=yes\0" \
 	""
 
+#define CONFIG_AST_HACE		/* Hash and Crypto Engine */
+#define CONFIG_SHA_HW_ACCEL
+
 #endif	/* __AST_COMMON_CONFIG_H */
